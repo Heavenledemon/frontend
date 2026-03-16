@@ -1,0 +1,12 @@
+.Service {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+
+}
+
+@media (max-width: 768px) {
+    .Service {
+        grid-template-columns: auto;
+    }
+}
