@@ -1,16 +1,59 @@
-# React + Vite
+# Agency-Ai
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Agency-Ai is a modern, responsive landing page for a digital agency. Built with React and Vite, it features a sleek design, dark mode support, and smooth navigation.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-   **Responsive Design**: Fully responsive layout that looks great on desktops, tablets, and mobile devices.
+-   **Dark Mode**: Seamless toggle between light and dark themes.
+-   **Smooth Scrolling**: Sticky navigation bar with smooth scroll-to-section functionality.
+-   **Services Showcase**: Detailed display of agency services with interactive cards.
+-   **Portfolio Section**: Highlights latest work and projects.
+-   **Contact Form**: Functional contact form powered by Web3Forms with real-time notifications via React Hot Toast.
+-   **Premium Aesthetics**: Modern typography, smooth animations, and a clean interface.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-   **Frontend**: React 19, Vite
+-   **Styling**: Tailwind CSS 4
+-   **Notifications**: React Hot Toast
+-   **Form Handling**: Web3Forms API
+-   **Icons**: Custom SVG assets
 
-## Expanding the ESLint configuration
+## 📦 Installation & Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/Heavenledemon/frontend.git
+    cd Agency-Ai
+    ```
+
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
+
+3.  **Run the development server**:
+    ```bash
+    npm run dev
+    ```
+
+4.  **Build for production**:
+    ```bash
+    npm run build
+    ```
+
+## 📂 Project Structure
+
+-   `src/components/`: Reusable React components (Navbar, Hero, Services, OurWork, etc.)
+-   `src/assets/`: Images, icons, and static assets.
+-   `src/App.jsx`: Main application component.
+-   `src/index.css`: Global styles and Tailwind imports.
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+Crafted by **Paul** - 2026
